@@ -17,10 +17,6 @@
   color:#3498DB;
 }
 
-header{
-  background-color: skyblue;
-}
-
 nav>ul{
   height: 17vh;
   width:100%;
@@ -194,9 +190,14 @@ a.bstyle:hover{
   overflow: auto;
 }
 
+.section-nate{
+  padding-bottom: 8rem;
+  padding-top: 4rem;
+}
+
 section#how{
-  position:relative;
-  top:10rem;
+  background-color: #F9F9F9;
+
 }
 
 i.icon--how{
@@ -215,7 +216,7 @@ i.icon--how{
 }
 
 .step-how-row{
-  margin-top:10rem;  
+  margin-top:10rem;
 }
 
 .how-title{
@@ -231,6 +232,57 @@ i.icon--how{
   font-size: 1.86rem;
   font-weight: 600;
   color: #494949;
+}
+
+.promise-title{
+  margin:20px 0;
+  font-size: 50px;
+  font-size: 5.82857rem;
+  line-height: 4rem;
+  font-weight: 600;
+}
+
+.promise-parrafo{
+  line-height: 3.57143rem;
+  font-size: 2.26rem;
+  font-weight: 600;
+  color: #494949;
+}
+
+.icon--promise{
+  width:80px;
+  height: 80px;
+  position:absolute;
+  left:16rem;
+}
+
+.text-promise{
+  position: absolute;
+  top: 7rem;
+  padding: 10px 50px;
+  line-height: 2rem;
+}
+
+.promise-h5{
+  color: #6EA43F;
+  font-size: 18px;
+  font-size: 1.88571rem;
+  font-weight: 600;
+}
+
+.title-h2{
+  margin-top: 60px;
+}
+
+.icon-arrow{
+  width:30px;
+  height: 30px;
+  position: absolute;
+  right: 20px;
+}
+
+.row-2{
+  margin-top: 25rem;
 }
 
 @media screen and (max-width:960px){
