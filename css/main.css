@@ -201,6 +201,7 @@ section#how{
 
 section#community{
   background-color: #75B9E7;
+  padding-bottom: 20rem;
 }
 
 i.icon--how{
@@ -349,30 +350,191 @@ i.icon--how{
   background-position: center 50%;
 }
 
+section#cleaning{
+  background-color: #3498DB;
+}
+
+.row-cleaning{
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+}
+
+.fotos{
+  position: absolute;
+  width: 100%;
+  top: -170px;
+}
+
 .clean{
   position: absolute;
   top:0;
+  z-index: 1;
+}
+
+.clean1{
+  transform: rotateZ(-5deg);
+  transition: 0.75s;
+  left:0;
+}
+
+.clean1:hover{
+  transition: 0.75s;
+  transform: rotateZ(-10deg);
 }
 
 .clean2{
-  left:100px;
+  left:20%;
+  transition: 0.75s;
+  transform: rotateZ(5deg);
+}
+
+.clean2:hover{
+  transition: 0.75s;
+  transform: rotateZ(10deg);
 }
 
 .clean3{
-  left:200px;
+  left:40%;
+  transition: 0.75s;
+  transform: rotateZ(5deg);
+}
+
+.clean3:hover{
+  transition: 0.75s;
+  transform: rotateZ(10deg);
 }
 
 .clean4{
-  left:300px;
+  left:60%;
+  transform: rotateZ(5deg);
+  transition: 0.75s;
+}
+
+.clean4:hover{
+  transition: 0.75s;
+  transform: rotateZ(10deg);
 }
 
 .clean5{
-  left:400px;
+  left:80%;
+  transform: rotateZ(-5deg);
+  transition: 0.75s;
+}
+
+.clean5:hover{
+  transition: 0.75s;
+  transform: rotateZ(-10deg);
 }
 
 .back{
   position: absolute;
-  top:50px;
+  top:0;
+}
+
+.clean-back1{
+  left:5%;
+  transition: 0.75s;
+  transform: rotateZ(3deg);
+}
+
+.clean-back1:hover{
+  transition: 0.75s;
+  transform: rotateZ(-3deg);
+}
+
+.clean-back2{
+  left:35%;
+  transform: translateY(-2%) rotateZ(-6deg);
+  transition: 0.75s;
+}
+
+.clean-back2:hover{
+  transform: translateY(0%) rotateZ(0deg);
+  transition: 0.75s;
+}
+
+.clean-back3{
+  left:65%;
+  transition: 0.75s;
+  transform: translateY(2%) rotateZ(-1deg);
+}
+
+.clean-back3:hover{
+  left:65%;
+  transition: 0.75s;
+  transform: translateY(2%) rotateZ(-5deg);
+}
+
+.clean-back4{
+  left:80%;
+  transition: 0.75s;
+  transform: scaleX(-1) translateY(5%) rotateZ(-3deg);
+}
+
+.clean-back4:hover{
+  left:80%;
+  transition: 0.75s;
+  transform: scaleX(-1) translateY(5%) rotateZ(-6deg);
+}
+
+.relative{
+  position: relative;
+}
+
+.note{
+  background-color: #fff;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.kit{
+  height:759px;;
+}
+
+.check-list:after{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 117px;
+  left: 59px;
+  width: 1px;
+  height: 84%;
+  z-index: 1;
+  background-color: #ECBBB6;
+}
+
+.list-db:before{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 117px;
+  left: 63px;
+  width: 1px;
+  height: 84%;
+  z-index: 1;
+  background-color: #ECBBB6;
+}
+
+.check-head{
+  font-size: 3rem;
+}
+
+.check-subhead{
+  font-size: 1.5rem;
+}
+
+.check-checkbox{
+  margin:0;
+  padding:23px 10px 23px 77px;
+  border-top: 1px solid #eee;
+}
+
+.ok{
+  position: absolute;
+  top: 22px;
+  left: 0;
+  width: 30px;
+  height: 30px;
 }
 
 @media screen and (max-width:960px){
