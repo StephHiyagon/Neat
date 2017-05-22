@@ -488,35 +488,91 @@ section#cleaning{
 }
 
 .kit{
-  height:759px;;
+  height:778px;
+}
+
+.kit2{
+  height: 311px;
 }
 
 .check-list:after{
   content: "";
   display: block;
   position: absolute;
-  top: 117px;
+  top: 137px;
   left: 59px;
   width: 1px;
-  height: 84%;
+  height: 81%;
   z-index: 1;
   background-color: #ECBBB6;
 }
+
+.check-list2:after{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 74px;
+  left: 59px;
+  width: 1px;
+  height: 74%;
+  z-index: 1;
+  background-color: #ECBBB6;
+}
+
 
 .list-db:before{
   content: "";
   display: block;
   position: absolute;
-  top: 117px;
+  top: 74px;
   left: 63px;
   width: 1px;
-  height: 84%;
+  height: 90%;
   z-index: 1;
   background-color: #ECBBB6;
 }
 
+.list-db:after{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 74px;
+  left: 60px;
+  width: 1px;
+  height: 90%;
+  z-index: 1;
+  background-color: #ECBBB6;
+}
+
+.list-db2:before{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 74px;
+  left: 63px;
+  width: 1px;
+  height: 77%;
+  z-index: 1;
+  background-color: #ECBBB6;
+}
+
+.list-db2:after{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 74px;
+  left: 60px;
+  width: 1px;
+  height: 77%;
+  z-index: 1;
+  background-color: #ECBBB6;
+}
+
+
 .check-head{
   font-size: 3rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .check-subhead{
